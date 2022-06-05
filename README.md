@@ -19,11 +19,13 @@ Bottstrap Cluster
  2. Enable necessary addons from the list above. The command below enables dashboard and dns addons.
  
      sudo microk8s.status
+     
      sudo microk8s.enable dashboard dns
      
  3. Access kubernetes
  
       sudo microk8s.kubectl get all --all-namespaces
+      
       sudo microk8s.kubectl cluster-info
       
       
